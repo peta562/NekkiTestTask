@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad5939e50622784c8bf0cdfa99682fa, type: 3}
+  m_Name: SpellsConfig
+  m_EditorClassIdentifier: 
+  AvailableSpells:
+  - Name: Fire
+    Prefab: {fileID: 7620694767072399222, guid: 873941c1ed5a41141b8d8b356e51387f, type: 3}
+    Damage: 30
+    Speed: 10
+    Lifetime: 3
+    Color: {r: 0.94716984, g: 0.5589793, b: 0.14118181, a: 1}
+  - Name: Water
+    Prefab: {fileID: 7620694767072399222, guid: 873941c1ed5a41141b8d8b356e51387f, type: 3}
+    Damage: 10
+    Speed: 15
+    Lifetime: 4
+    Color: {r: 0.3726664, g: 0.45266473, b: 0.90188676, a: 1}
+  - Name: Ice
+    Prefab: {fileID: 7620694767072399222, guid: 873941c1ed5a41141b8d8b356e51387f, type: 3}
+    Damage: 20
+    Speed: 12
+    Lifetime: 2
+    Color: {r: 0.40566033, g: 1, b: 0.95889646, a: 1}
+  - Name: Plazma
+    Prefab: {fileID: 7620694767072399222, guid: 873941c1ed5a41141b8d8b356e51387f, type: 3}
+    Damage: 20
+    Speed: 13
+    Lifetime: 1
+    Color: {r: 0.87169814, g: 0, b: 0.7543512, a: 1}
